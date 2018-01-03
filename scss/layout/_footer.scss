@@ -1,0 +1,115 @@
+
+/*
+================================================================================
+|                                     FOOTER                                   |
+================================================================================
+*/
+footer{
+	// background:#000 url(../img/bg_footer.jpg) no-repeat left top;
+	// height:80px;
+	text-align:left;
+	width:100%;
+	min-width: $min-width;
+	order: 3;
+    -webkit-order: 3;
+}
+
+.footer {
+	font-size: 0;
+	margin: 19px (-$main-gutter) 0;
+}
+.footer__info,
+.footer__other {
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	font-size: 16px;
+	padding: 0 $main-gutter;
+}
+
+.footer-menu__list {
+	font-size: 16px;
+	list-style-type: none;
+}
+.footer-menu {
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-menu__contacts {
+  width: 198px;
+	margin-right: 70px;
+}
+.footer-menu__item {
+	line-height: 30px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.footer-menu__link {
+	color: #4b83fc;
+	&:hover, &:active, &:focus {
+		opacity: .5;
+	}
+}
+.footer__header {
+	color: #000;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+  margin-bottom: 6px;
+}
+.copyright {
+	font-size: 10px;
+	background: #18294b;
+	line-height: 30px;
+	height: 30px;
+	color: #fff;
+	text-align: right;
+	margin-top: 10px;
+	font-family: 'Roboto';
+}
+.footer-menu__icon {
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+	background: url("../img/icons.png") no-repeat;
+	vertical-align: top;
+	margin: 5px 12px 0 0;
+}
+.footer-menu_icon_phone { background-position: 0 0; }
+.footer-menu_icon_email { background-position: -23px 0; }
+.footer-menu_icon_web { background-position: -46px 0; }
+
+.footer-menu__contacts_link {
+	color: #000;
+	&:hover, &:active, &:focus {
+		opacity: .7;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 400px) {
+	.footer__info, .footer__other {
+		display: block;
+		width: 100%;
+	}
+}

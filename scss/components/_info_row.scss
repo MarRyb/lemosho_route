@@ -1,0 +1,23 @@
+.info {
+  padding: 25px 0 23px;
+}
+.info-row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin-left: -$main-gutter;
+  margin-right: -$main-gutter;
+}
+.info-row__col {
+  flex-basis: 100%;
+  padding-left: $main-gutter;
+  padding-right: $main-gutter;
+}
+
+@media screen and (max-width: 850px) {
+  .info-row {
+    display: block;
+  }
+}

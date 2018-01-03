@@ -1,0 +1,60 @@
+.routes-list {
+  font-size: 0;
+  margin-right: -$main-gutter * 2;
+}
+.routes-list__item {
+  display: inline-block;
+  width: 170px;
+  margin-right: $main-gutter * 2;
+  margin-bottom: 15px;
+}
+.routes-list__link {
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: 'DINNextLTPro';
+  font-weight: 600;
+  color: white;
+  background: #ccc;
+  line-height: 29px;
+  height: 25px;
+  padding: 0 10px;
+  font-size: 17px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 2px;
+
+  &:hover, &:active, &:focus {
+    opacity: .7;
+  }
+}
+
+.routes-list__link_style_machame {
+  background: #57ad00;
+}
+.routes-list__link_style_marangu {
+  background: #cc5210;
+}
+.routes-list__link_style_circuit {
+  background: #5733b8;
+}
+.routes-list__link_style_umbwe {
+  background: #d17d00;
+}
+.routes-list__link_style_rongai {
+  background: #c9026c;
+}
+.routes-list__link_style_breach {
+  background: #0093ad;
+}
+
+
+@media screen and (max-width: 400px) {
+  .routes-list__item {
+    width: auto !important;
+  }
+  .routes-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

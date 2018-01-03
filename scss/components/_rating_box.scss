@@ -1,0 +1,24 @@
+.rating-box {
+  font-size: 0;
+  display: block;
+  text-align: center;
+
+  .rating-box__star {
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.rating-box__star {
+  display: inline-block;
+  background: url('../img/icons.png') no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-right: 3px;
+}
+.rating-box__star_full {
+  background-position: 0 -23px;
+}
+.rating-box__star_empty {
+  background-position: -15px -23px;
+}

@@ -1,0 +1,26 @@
+/* reset */
+$main-gutter: 15px;
+
+$min-width: 320px;
+$max-width: 1170px + ($main-gutter * 2);
+$base-bg: #FFF;
+$base-font-size: 13px;
+$base-line-height: 18px;
+$base-font-family: 'DINRoundPro', Arial, sans-serif;
+$custom-font-family: 'DINNextLTPro', sans-serif;
+$link-color: #100da9;
+$default-transition:all 0.2s linear;
+
+/* main variables */
+
+//text, titles
+$text-color: #565656;
+$title-color: #000;
+$title-font-family: $custom-font-family;
+
+$font-size-h1: 30px;
+$line-height-h1: 30px;
+$font-size-h2: 26px;
+$line-height-h2: 30px;
+$font-size-h3: 28px;
+$line-height-h3: 32px;

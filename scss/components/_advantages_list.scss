@@ -1,0 +1,25 @@
+.advantages-list {
+  list-style-type: none;
+  margin-top: 13px;
+}
+.advantages-list__item {
+  padding-left: 30px;
+  line-height: 20px;
+  color: #565656;
+  font-size: 14px;
+  margin-bottom: 16px;
+
+  &::before {
+    display: inline-block;
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #4b83fc;
+    float: left;
+    vertical-align: middle;
+    margin-right: 20px;
+    margin-left: -28px;
+    margin-top: 6px;
+  }
+}

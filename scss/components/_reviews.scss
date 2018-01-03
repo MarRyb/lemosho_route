@@ -1,0 +1,97 @@
+.reviews {
+  margin: -11px 0 20px;
+  .owl-item {
+    padding-bottom: 20px;
+    padding-top: 110px;
+  }
+  .owl-stage-outer {
+    margin: 0 -10px;
+    padding: 0 10px;
+  }
+}
+.review-item {
+  text-align: center;
+  padding: 20px 20px 7px;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  border: 1px solid rgba(203,203,203,.3);
+  border-radius: 5px;
+  position: relative;
+
+  p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 11px 0;
+    color: #000;
+    text-align: left;
+  }
+
+  &::before {
+    content: " ";
+    display: block;
+    width: 1px;
+    height: 19px;
+    background: rgba(203, 203, 203, 0.5);
+    position: absolute;
+    top: -111px;
+    left: 50%;
+  }
+}
+.review-item__image {
+  width: 140px !important;
+  height: 140px;
+  border-radius: 70px;
+  display: inline-block !important;
+  margin: -91px 0 17px;
+}
+.review-item__author {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 7px 0 0 0;
+  border-bottom: 1px solid #4b83fc;
+  padding-bottom: 10px;
+}
+.review-item__more {
+  font-weight: 500;
+  font-size: 16px;
+  border-bottom: 1px dashed;
+  color: #4b83fc;
+  line-height: 22px;
+  margin: 2px 0 16px;
+  display: inline-block;
+
+  &::after {
+    content: " +";
+    border-bottom: 2px solid white;
+  }
+
+  &:hover, &:active, &:focus {
+    opacity: .7;
+  }
+}
+
+.reviews__btn {
+  border: 2px solid #6c9afe;
+  line-height: 54px;
+  height: 54px;
+  display: inline-block;
+  padding: 0 47px;
+  border-radius: 4px;
+  font-family: 'DINNextLTPro';
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  background: #2265f7;
+  margin: 0 auto 23px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.25);
+  background: rgb(84,133,241);
+  background: -moz-linear-gradient(top, rgba(84,133,241,1) 0%, rgba(34,101,247,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(84,133,241,1) 0%,rgba(34,101,247,1) 100%);
+  background: linear-gradient(to bottom, rgba(84,133,241,1) 0%,rgba(34,101,247,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5485f1', endColorstr='#2265f7',GradientType=0 );
+
+  &:hover, &:active, &:focus {
+    opacity: .8;
+  }
+}
